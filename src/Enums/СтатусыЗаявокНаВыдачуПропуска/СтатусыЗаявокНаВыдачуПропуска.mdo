@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f18b2d0e-32d5-499f-bbd9-a587d39ff4ef">
+  <producedTypes>
+    <refType typeId="eccccfb8-2dc4-4e6b-bf9c-16ee70be56cb" valueTypeId="449bdd62-f1f4-4feb-bd78-39b57be5f79f"/>
+    <listType typeId="a77490d8-9a83-46c2-8b5a-67e8cf089ac9" valueTypeId="a9020e7c-9897-48c2-a085-eb3b13511580"/>
+    <managerType typeId="34139838-12a6-48cc-8148-e378a9406f38" valueTypeId="c804d5bc-7e82-4c32-9e86-4146cc8aaf42"/>
+  </producedTypes>
+  <name>СтатусыЗаявокНаВыдачуПропуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заявок на выдачу пропуска</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="827aadda-9138-4b39-b775-c9bfff37569f">
+    <name>Создано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="129c6ced-e791-4532-8e83-6fd946c94f79">
+    <name>НаСогласовании</name>
+    <synonym>
+      <key>ru</key>
+      <value>На согласовании</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e74992e-e1cd-4fcc-a89c-2d77e8ea2a21">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7850e396-945f-4b75-ae0e-3ef9e25314cc">
+    <name>Отклонено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отклонено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

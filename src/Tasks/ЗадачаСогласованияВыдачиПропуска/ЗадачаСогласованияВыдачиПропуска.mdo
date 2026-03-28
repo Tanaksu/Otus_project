@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="401807bf-ee9d-4441-8a7f-19127f04a0cd">
+  <producedTypes>
+    <objectType typeId="5d569313-94e2-45c1-a2b7-857ad4c06f23" valueTypeId="8b35ae60-161d-470c-9fd3-650e08211695"/>
+    <refType typeId="2fee60bb-1b0f-4417-b0b7-6b8f4c4ff535" valueTypeId="410f0efe-6642-43b1-8d61-016cf9a6cb3a"/>
+    <selectionType typeId="0532f0e0-1f74-4d9f-822e-0f530e8b4864" valueTypeId="8c7475ba-0ddc-4553-a92e-bcfcce9a532f"/>
+    <listType typeId="cd815f0f-702e-4f47-86b0-ea2cce398461" valueTypeId="6add98b5-aa7c-4bac-99d5-26e84e532ae2"/>
+    <managerType typeId="d50cefe6-66d1-402c-908f-734d5198446c" valueTypeId="11758717-3d7a-4887-a9ad-d57f77a4bc77"/>
+  </producedTypes>
+  <name>ЗадачаСогласованияВыдачиПропуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задача согласования выдачи пропуска</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачаСогласованияВыдачиПропуска.StandardAttribute.Number</inputByString>
+  <inputByString>Task.ЗадачаСогласованияВыдачиПропуска.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+</mdclass:Task>

@@ -7,4 +7,7 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ФизическиеЛица</content>
+  <content>Document.ЗаявкаНаВыдачуПропуска</content>
+  <content>Task.ЗадачаСогласованияВыдачиПропуска</content>
 </mdclass:Subsystem>
