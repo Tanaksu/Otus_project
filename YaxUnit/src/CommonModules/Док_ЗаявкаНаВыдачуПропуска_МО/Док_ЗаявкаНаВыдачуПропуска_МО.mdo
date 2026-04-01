@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="720238b8-e6ad-4260-8380-5dde9635565d">
+  <name>Док_ЗаявкаНаВыдачуПропуска_МО</name>
+  <server>true</server>
+</mdclass:CommonModule>
