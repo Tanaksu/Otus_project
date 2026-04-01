@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4d748afa-70f0-45df-8e59-2a49d54029ee">
+  <producedTypes>
+    <objectType typeId="3a5b008e-b0fb-43d8-b4f7-d0e51e8b9266" valueTypeId="73110ad5-8241-4b74-a370-7162a0e72344"/>
+    <refType typeId="12a6dc3c-5d8e-490b-a6e8-90740836ee51" valueTypeId="2bba8b2a-be62-499e-85d7-6a7ba78b6879"/>
+    <selectionType typeId="26aa769d-ab75-429b-b229-210ec61b0393" valueTypeId="49f81753-55a7-4d60-8f22-5e03479bb55e"/>
+    <listType typeId="9359f232-6c02-4f8d-a99a-a9abdda36662" valueTypeId="68e69d99-3094-44f4-94ab-7e018e78b1f7"/>
+    <managerType typeId="61c820a7-90d8-4cfc-af48-16c4d96874ea" valueTypeId="fe864999-6a70-434a-922c-1ceba7019d49"/>
+  </producedTypes>
+  <name>РолиИсполнителей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли исполнителей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.РолиИсполнителей.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.РолиИсполнителей.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="4ee53bf5-e916-436a-aeb2-30c42d1c2526">
+      <name>Менеджер</name>
+      <description>Менеджер</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="f8dc91e0-4602-4a4d-9027-4f1106c548ae">
+      <name>РуководительСлужбыБезопасности</name>
+      <description>Руководитель службы безопасности</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="a5573270-0265-401d-a2dd-7a37109f2611">
+      <name>СотрудникБюроПропусков</name>
+      <description>Сотрудник бюро пропусков</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

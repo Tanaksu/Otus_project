@@ -10,4 +10,5 @@
   <content>Catalog.ФизическиеЛица</content>
   <content>Document.ЗаявкаНаВыдачуПропуска</content>
   <content>Task.ЗадачаСогласованияВыдачиПропуска</content>
+  <content>BusinessProcess.СогласованиеВыдачиПропуска</content>
 </mdclass:Subsystem>

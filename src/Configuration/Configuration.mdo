@@ -355,6 +355,7 @@
   <catalogs>Catalog.ХранилищеВариантовОтчетов</catalogs>
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
+  <catalogs>Catalog.РолиИсполнителей</catalogs>
   <documents>Document.Заказ</documents>
   <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.Оплата</documents>
@@ -402,10 +403,12 @@
   <informationRegisters>InformationRegister.СостояниеИсходящихПисем</informationRegisters>
   <informationRegisters>InformationRegister.Характеристики</informationRegisters>
   <informationRegisters>InformationRegister.МобильныеОтчеты</informationRegisters>
+  <informationRegisters>InformationRegister.РолиИсполнителейЗадач</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварныеЗапасы</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.ВидыХарактеристик</chartsOfCharacteristicTypes>
+  <businessProcesses>BusinessProcess.СогласованиеВыдачиПропуска</businessProcesses>
   <tasks>Task.ЗадачаСогласованияВыдачиПропуска</tasks>
   <bots>Bot.ОфисМенеджер</bots>
 </mdclass:Configuration>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6bd731d0-a127-4ef7-9a36-6968de119ef1">
+  <producedTypes>
+    <objectType typeId="ff6a1fbe-be37-4955-a75e-6a985d92064a" valueTypeId="fe61a373-80fc-42f8-82ca-388eecfe31c4"/>
+    <refType typeId="ca19b8fd-edaf-44b9-94bc-bc495914934b" valueTypeId="7314989d-9097-4505-93ad-c8c417680693"/>
+    <selectionType typeId="e292e49a-0c71-4d8e-8ba9-9302efe6e91c" valueTypeId="3f7bdd1e-7677-498c-9743-d09f92f4b14e"/>
+    <listType typeId="659b0111-d7d6-4401-9189-38debfaff506" valueTypeId="777d8232-e5d0-46d2-87b3-b5d4ee4a0baa"/>
+    <managerType typeId="005e8241-8a16-4ac3-8156-758ced245857" valueTypeId="323b4ad5-0c85-4da2-b882-2dfc3d808dc7"/>
+    <routePointRef typeId="81c7cc9d-49db-4257-b910-7b53b11c9aa8" valueTypeId="f4318b8c-47b6-4c6e-b3da-46ad393f317e"/>
+  </producedTypes>
+  <name>СогласованиеВыдачиПропуска</name>
+  <synonym>
+    <key>ru</key>
+    <value>Согласование выдачи пропуска</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.СогласованиеВыдачиПропуска.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.СогласованиеВыдачиПропуска.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаСогласованияВыдачиПропуска</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="3f473843-531d-48b8-a95d-5277e75ce037">
+    <name>Заявка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заявка</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкаНаВыдачуПропуска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="c4b455ed-930f-4323-8804-80e3f914d42e">
+    <name>РазрешенаВыдачаПропуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешена выдача пропуска</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="4d4c243b-6446-4d8e-a0ba-7b745d631fc2">
+    <name>Посетитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Посетитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизическиеЛица</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="fe2298f7-473c-486f-a48c-93260be1d082">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>

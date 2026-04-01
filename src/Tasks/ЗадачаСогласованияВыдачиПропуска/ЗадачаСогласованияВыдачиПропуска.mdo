@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Task xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="401807bf-ee9d-4441-8a7f-19127f04a0cd">
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="401807bf-ee9d-4441-8a7f-19127f04a0cd">
   <producedTypes>
     <objectType typeId="5d569313-94e2-45c1-a2b7-857ad4c06f23" valueTypeId="8b35ae60-161d-470c-9fd3-650e08211695"/>
     <refType typeId="2fee60bb-1b0f-4417-b0b7-6b8f4c4ff535" valueTypeId="410f0efe-6642-43b1-8d61-016cf9a6cb3a"/>
@@ -25,7 +25,51 @@
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
   <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>50</descriptionLength>
+  <addressing>InformationRegister.РолиИсполнителейЗадач</addressing>
+  <mainAddressingAttribute>Task.ЗадачаСогласованияВыдачиПропуска.AddressingAttribute.Роль</mainAddressingAttribute>
+  <currentPerformer>SessionParameter.ТекущийПользователь</currentPerformer>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
+  <defaultObjectForm>Task.ЗадачаСогласованияВыдачиПропуска.Form.ФормаЗадачи</defaultObjectForm>
+  <attributes uuid="62c77938-fb6b-4480-973a-92dcc5af09a7">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="867e65e0-36f0-4eac-9b49-7a8dfcd84c34">
+    <name>ФормаЗадачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <addressingAttributes uuid="b904e358-9def-4306-b0b2-001a70c1ee59">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.РолиИсполнителей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </addressingAttributes>
 </mdclass:Task>
