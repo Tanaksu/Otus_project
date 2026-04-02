@@ -462,7 +462,7 @@
 				<Event name="InteractiveActivationProcessing"/>
 				<Event name="BeforeCreateTasks"/>
 				<Event name="OnCreateTask"/>
-				<Event name="OnExecute"/>
+				<Event name="OnExecute">РаспечататьПропускПриВыполнении</Event>
 				<Event name="CheckExecutionProcessing"/>
 				<Event name="BeforeExecute"/>
 				<Event name="BeforeExecuteInteractively"/>

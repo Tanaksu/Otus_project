@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonTemplate xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e157518a-c9ec-4fdc-b66a-325fac64cd63">
+  <name>PinkRabbitMQ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Pink rabbit MQ</value>
+  </synonym>
+  <templateType>AddIn</templateType>
+</mdclass:CommonTemplate>

@@ -32,6 +32,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <defaultObjectForm>Task.ЗадачаСогласованияВыдачиПропуска.Form.ФормаЗадачи</defaultObjectForm>
+  <defaultListForm>Task.ЗадачаСогласованияВыдачиПропуска.Form.ФормаСписка</defaultListForm>
   <attributes uuid="62c77938-fb6b-4480-973a-92dcc5af09a7">
     <name>Комментарий</name>
     <synonym>
@@ -53,6 +54,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма задачи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="37606b12-c88f-44ac-9853-8208ac10dbfa">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

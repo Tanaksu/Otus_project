@@ -193,6 +193,7 @@
   <subsystems>Subsystem.Финансы</subsystems>
   <subsystems>Subsystem.ТоварныеЗапасы</subsystems>
   <subsystems>Subsystem.КонтрольПропусков</subsystems>
+  <subsystems>Subsystem.Интеграция</subsystems>
   <styleItems>StyleItem.ЦветТекстаСущественныхИзмененийДанных</styleItems>
   <styleItems>StyleItem.ЦветТекстаНормальногоСостояния</styleItems>
   <styleItems>StyleItem.ЦветТекстаОшибочногоСостояния</styleItems>
@@ -230,6 +231,7 @@
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовWindows64</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовLinux32</commonTemplates>
   <commonTemplates>CommonTemplate.КомпонентаПечатиШтрихкодовLinux64</commonTemplates>
+  <commonTemplates>CommonTemplate.PinkRabbitMQ</commonTemplates>
   <filterCriteria>FilterCriterion.ДокументыКонтрагента</filterCriteria>
   <commonModules>CommonModule.ОбменМобильныеОбщее</commonModules>
   <commonModules>CommonModule.ОбменМобильныеПереопределяемый</commonModules>
@@ -356,6 +358,7 @@
   <catalogs>Catalog.Встречи</catalogs>
   <catalogs>Catalog.ФизическиеЛица</catalogs>
   <catalogs>Catalog.РолиИсполнителей</catalogs>
+  <catalogs>Catalog.НастройкиПодключенияRabbit</catalogs>
   <documents>Document.Заказ</documents>
   <documents>Document.ОперацияПоУчетуТоваров</documents>
   <documents>Document.Оплата</documents>
@@ -397,6 +400,7 @@
   <dataProcessors>DataProcessor.УправлениеПолнотекстовымПоиском</dataProcessors>
   <dataProcessors>DataProcessor.УправлениеСистемойВзаимодействия</dataProcessors>
   <dataProcessors>DataProcessor.ЭлектроннаяПочта</dataProcessors>
+  <dataProcessors>DataProcessor.ОбменСКУД</dataProcessors>
   <informationRegisters>InformationRegister.КурсыВалют</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныТоваров</informationRegisters>
   <informationRegisters>InformationRegister.СостояниеВходящихПисем</informationRegisters>
@@ -404,6 +408,7 @@
   <informationRegisters>InformationRegister.Характеристики</informationRegisters>
   <informationRegisters>InformationRegister.МобильныеОтчеты</informationRegisters>
   <informationRegisters>InformationRegister.РолиИсполнителейЗадач</informationRegisters>
+  <informationRegisters>InformationRegister.ОчередьВыгрузкиСообщений</informationRegisters>
   <accumulationRegisters>AccumulationRegister.Взаиморасчеты</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.Продажи</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварныеЗапасы</accumulationRegisters>

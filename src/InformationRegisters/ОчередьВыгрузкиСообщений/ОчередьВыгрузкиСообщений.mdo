@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4409c60b-2b92-460f-9911-5980a89b5684">
+  <producedTypes>
+    <selectionType typeId="cbc30bec-286e-44a1-81af-d1b58410688b" valueTypeId="8df6d2d2-de85-4964-a7cc-a88c085b8925"/>
+    <listType typeId="394012bb-3766-44f7-a784-3ab8b07abe20" valueTypeId="0e715641-ae23-45ba-9279-fbf9ed6945c1"/>
+    <managerType typeId="af0846b4-e2bd-450a-abf9-79ab250c16fb" valueTypeId="fbc1e315-313c-4b1a-a2a4-9bded3a8ae8d"/>
+    <recordSetType typeId="a7a6c59f-d2eb-4a01-815c-cc38ed27dee8" valueTypeId="517e3ab1-8019-4ab2-9cfe-b37b2523cda0"/>
+    <recordKeyType typeId="42f2ac25-be14-414d-b6c1-a42833f53d02" valueTypeId="0d271be4-477b-47f5-bf25-b83815bf8953"/>
+    <recordType typeId="bf7b5b19-d731-4e19-b167-e30efa640057" valueTypeId="b625184b-f868-421c-b3a5-a2c33d06a23e"/>
+    <recordManagerType typeId="73201c10-d6df-4cdb-9f09-fc32c54bfac1" valueTypeId="a4a0811e-b962-4000-a2d9-8f10377f0d30"/>
+  </producedTypes>
+  <name>ОчередьВыгрузкиСообщений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Очередь выгрузки сообщений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="c6bf0fd7-d96e-4a58-93d6-5c8a6eb95fd1">
+    <name>ВыгружаемыйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгружаемый объект</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.ЗаявкаНаВыдачуПропуска</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
