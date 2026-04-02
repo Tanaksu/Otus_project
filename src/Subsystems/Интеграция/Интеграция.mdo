@@ -10,4 +10,7 @@
   <picture xsi:type="core:PictureRef">
     <picture>StdPicture.SendMessage</picture>
   </picture>
+  <content>Catalog.НастройкиПодключенияRabbit</content>
+  <content>InformationRegister.ОчередьВыгрузкиСообщений</content>
+  <content>DataProcessor.ОбменСКУД</content>
 </mdclass:Subsystem>
