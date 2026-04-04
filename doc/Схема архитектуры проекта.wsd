@@ -1,0 +1,26 @@
+@startuml
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+title
+ <b>Схема взаимодействия 1C: УНФ с БД СКУД</b>
+end title 
+
+' Базы 1С
+System_Boundary(ERP, "1С:УНФ",) {
+ Container(ЗаявкиНаВыдачуПропусков, "Заявки на выдачу пропусков", "Посетитель, Период действия","")
+}
+
+'Внешние системы
+System_Ext(БДСКУД, "БД СКУД", "База данных СКУД")
+
+' Брокер данных
+Component(ESB,"Rabbit MQ","Сервис для обмена данными")
+
+' Внутренние связи
+Rel(ERP, ESB,"web-сервис", "Заявки")
+Rel(ESB, БДСКУД,"web-сервис", "Заявки")
+
+@enduml
